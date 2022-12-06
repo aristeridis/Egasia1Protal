@@ -7,7 +7,6 @@ public class Main {
     public static void main(String[] args) {
         Scanner myInput = new Scanner( System.in );
         int a,b;
-
         System.out.print( "Dose arithmo Ypologiston gia paragwgi: " );
         a = myInput.nextInt();
         System.out.print( "Dose arithmo pelaton pou tha anameinoun: " );
@@ -16,7 +15,12 @@ public class Main {
         int euros_ypologiston=a;
         if (euros_ypologiston<=a && euros_ypologiston <=b){
             int tyxaio = rand.nextInt(euros_ypologiston);
-
     }
+        Katastima kat1 = Katastima.INSTANCE.getInstance();
+        System.out.println(kat1.getInfo());
+        kat1.setInfo("New info");
+        System.out.println(kat1.getInfo());
+        EnimerosiYpologiston observable = new EnimerosiYpologiston();
+        DiforopoiisiYpologiston observer = new DiforopoiisiYpologiston();
 }
 }

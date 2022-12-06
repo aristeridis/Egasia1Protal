@@ -5,6 +5,14 @@ public enum Katastima {
 
     private String info;
 
+    public String getInfo() {
+        return info;
+    }
+
+    public void setInfo(String info) {
+        this.info = info;
+    }
+
     private Katastima(String info) {
         this.info = info;
     }

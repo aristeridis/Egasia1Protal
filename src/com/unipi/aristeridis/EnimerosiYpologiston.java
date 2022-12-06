@@ -12,5 +12,8 @@ public class EnimerosiYpologiston extends Observable {
         setChanged();
         notifyObservers(PCinfo);
     }
+
+    public void addPropertyChangeListener(DiforopoiisiYpologiston observer) {
+    }
 }
 
