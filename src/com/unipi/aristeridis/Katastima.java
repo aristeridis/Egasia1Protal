@@ -1,19 +1,22 @@
 package com.unipi.aristeridis;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public enum Katastima {
     INSTANCE("Arxiki pliroforia katastimatos");
 
-    private String info;
+    private List<String> info=new ArrayList<>();
 
-    public String getInfo() {
+    public List<String> getInfo() {
         return info;
     }
 
-    public void setInfo(String info) {
+    public void setInfo(List<String> info) {
         this.info = info;
     }
 
-    private Katastima(String info) {
+    private Katastima(List<String> info) {
         this.info = info;
     }
 
