@@ -19,7 +19,7 @@ public class Main {
     }
         Katastima kat1 = Katastima.INSTANCE.getInstance();
         System.out.println(kat1.getInfo());
-        kat1.setInfo(Collections.singletonList("New LIst"));
+        kat1.setInfo("New info");
         System.out.println(kat1.getInfo());
         EnimerosiYpologiston observable = new EnimerosiYpologiston();
         DiforopoiisiYpologiston observer = new DiforopoiisiYpologiston();

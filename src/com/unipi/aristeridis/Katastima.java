@@ -6,17 +6,17 @@ import java.util.List;
 public enum Katastima {
     INSTANCE("Arxiki pliroforia katastimatos");
 
-    private List<String> info=new ArrayList<>();
+    private String info="Initial info";
 
-    public List<String> getInfo() {
+    public String getInfo() {
         return info;
     }
 
-    public void setInfo(List<String> info) {
+    public void setInfo(String info) {
         this.info = info;
     }
 
-    private Katastima(List<String> info) {
+    private Katastima(String info) {
         this.info = info;
     }
 
