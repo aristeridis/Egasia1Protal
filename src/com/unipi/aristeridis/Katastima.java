@@ -1,7 +1,7 @@
 package com.unipi.aristeridis;
 
 public enum Katastima {
-    INSTANCE("Initial class info");
+    INSTANCE("Arxiki pliroforia katastimatos");
 
     private String info;
 
